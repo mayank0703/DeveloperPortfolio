@@ -1,0 +1,62 @@
+total 116
+drwxr-x--- 11 mayank mayank 4096 Nov 25 17:26 .
+drwxr-xr-x  3 root   root   4096 Oct 30 19:21 ..
+-rw-------  1 mayank mayank 8607 Nov 25 17:26 .bash_history
+-rw-r--r--  1 mayank mayank  220 Oct 30 19:21 .bash_logout
+-rw-r--r--  1 mayank mayank 3771 Oct 30 19:21 .bashrc
+drwxr-x---  4 mayank mayank 4096 Oct 30 19:23 .cache
+drwxr-x---  4 mayank mayank 4096 Oct 30 20:15 .config
+drwxr-xr-x  6 mayank mayank 4096 Nov 25 17:26 .git
+-rw-------  1 mayank mayank   71 Nov  7 10:27 .git-credentials
+-rw-r--r--  1 mayank mayank  121 Nov  7 09:46 .gitconfig
+drwxr-xr-x  2 mayank mayank 4096 Oct 30 19:23 .landscape
+-rw-------  1 mayank mayank   20 Nov  7 10:09 .lesshst
+drwx------  3 mayank mayank 4096 Oct 30 19:32 .local
+-rw-r--r--  1 mayank mayank    0 Nov 25 16:44 .motd_shown
+-rw-r--r--  1 mayank mayank  807 Oct 30 19:21 .profile
+drwxr-xr-x  8 mayank mayank 4096 Nov 25 17:27 DeveloperPortfolio
+drwxr-xr-x  7 mayank mayank 4096 Oct 30 19:58 Downloads
+-rwxr-xr-x  1 mayank mayank  165 Nov  2 04:54 att.sh
+drwxr-xr-x  2 mayank mayank 4096 Oct 30 19:54 cse103_backups
+drwxr-xr-x  4 mayank mayank 4096 Nov  6 15:40 cse103_lab
+-rwxr-xr-x  1 mayank mayank  131 Nov  2 04:56 num.sh
+-rwxr-xr-x  1 mayank mayank  129 Nov  2 04:35 number.sh
+-rwxr-xr-x  1 mayank mayank  152 Nov  2 04:41 passes.sh
+-rwxr-xr-x  1 mayank mayank  302 Nov  2 04:22 script.sh
+-rw-------  1 mayank mayank  496 Oct 30 19:35 script1_hello.sh.save
+-rwxr-xr-x  1 mayank mayank  509 Oct 30 19:58 script5_organizer.sh
+-rwxr-xr-x  1 mayank mayank  734 Oct 30 19:59 script6_sysreport.sh
+-rw-r--r--  1 mayank mayank 1631 Oct 30 20:00 system_report.txt
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  1.1  0.1  24352 15420 ?        Ss   17:27   0:00 /sbin/init
+root           2  0.0  0.0   3820  2520 hvc0     Sl+  17:27   0:00 /init
+root           3  0.0  0.0   3680  2220 hvc0     S+   17:27   0:00 init-watcher
+root           7  0.0  0.0   3820  2292 hvc0     Sl+  17:27   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          44  0.1  0.2  42320 19996 ?        S<s  17:27   0:00 /usr/lib/systemd/systemd-journald
+systemd+      79  0.1  0.1  22432 14436 ?        Ss   17:27   0:00 /usr/lib/systemd/systemd-resolved
+root          86  0.4  0.1  34980 12244 ?        Ss   17:27   0:00 /usr/lib/systemd/systemd-udevd
+root         106  0.0  0.0   2888  2008 ?        Ss   17:27   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+root         107  0.0  0.0   4472  3132 ?        Ss   17:27   0:00 /usr/sbin/cron -f -P
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.18.58.1-microsoft-standard-WSL2
+/dev/sdb         97M   97M     0 100% /usr/src/linux-headers-6.18.58.1-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         952G  678G  275G  72% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            3.9G   32K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  3.4M  3.8G   1% /init
+none            3.9G  576K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   80K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   80K  3.9G   1% /mnt/wslg/doc
+C:\             952G  678G  275G  72% /mnt/c
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           3.9G     0  3.9G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           780M   12K  780M   1% /run/user/1000
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       582Mi       6.7Gi       4.2Mi       537Mi       7.0Gi
+Swap:          2.0Gi          0B       2.0Gi
