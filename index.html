@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank Bodwal — Developer Portfolio</title>
+    <style>
+        /* ===== Reset & Base ===== */
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0d1117;
+            color: #c9d1d9;
+            line-height: 1.6;
+        }
+        a { color: #58a6ff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* ===== Header ===== */
+        .header {
+            background: linear-gradient(135deg, #161b22 0%, #0d1117 100%);
+            border-bottom: 1px solid #30363d;
+            text-align: center;
+            padding: 60px 20px 40px;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            color: #f0f6fc;
+            margin-bottom: 8px;
+        }
+        .header .subtitle {
+            font-size: 1.1rem;
+            color: #8b949e;
+        }
+        .header .university {
+            margin-top: 10px;
+            font-size: 1rem;
+            color: #58a6ff;
+            font-weight: 600;
+        }
+
+        /* ===== Container ===== */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* ===== Section ===== */
+        .section {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 32px;
+            margin-bottom: 28px;
+        }
+        .section h2 {
+            font-size: 1.5rem;
+            color: #f0f6fc;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #21262d;
+        }
+        .section h2 .emoji { margin-right: 8px; }
+
+        /* ===== About ===== */
+        .about p {
+            font-size: 1.05rem;
+            color: #c9d1d9;
+        }
+
+        /* ===== Skills ===== */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+        }
+        .skills-list li {
+            background: #21262d;
+            border: 1px solid #30363d;
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #c9d1d9;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        .skills-list li:hover {
+            background: #58a6ff;
+            color: #0d1117;
+            border-color: #58a6ff;
+        }
+
+        /* ===== Project Card ===== */
+        .project-card {
+            background: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 10px;
+            padding: 24px;
+            transition: border-color 0.2s;
+        }
+        .project-card:hover { border-color: #58a6ff; }
+        .project-card h3 {
+            font-size: 1.2rem;
+            color: #f0f6fc;
+            margin-bottom: 8px;
+        }
+        .project-card p {
+            font-size: 0.95rem;
+            color: #8b949e;
+            margin-bottom: 14px;
+        }
+        .project-card .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 14px;
+        }
+        .project-card .tags span {
+            background: #1f2a37;
+            color: #58a6ff;
+            font-size: 0.8rem;
+            padding: 4px 12px;
+            border-radius: 12px;
+        }
+        .project-card .btn {
+            display: inline-block;
+            background: #238636;
+            color: #fff;
+            padding: 8px 20px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+        .project-card .btn:hover {
+            background: #2ea043;
+            text-decoration: none;
+        }
+
+        /* ===== Contact ===== */
+        .contact-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .contact-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #21262d;
+            border: 1px solid #30363d;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            color: #c9d1d9;
+            transition: all 0.2s;
+        }
+        .contact-links a:hover {
+            background: #30363d;
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        /* ===== Footer ===== */
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #484f58;
+            font-size: 0.85rem;
+            border-top: 1px solid #21262d;
+        }
+
+        /* ===== Responsive ===== */
+        @media (max-width: 600px) {
+            .header h1 { font-size: 1.8rem; }
+            .section { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+        <h1>Mayank Bodwal</h1>
+        <div class="subtitle">B.Tech CSE (AI/ML) — Semester 1</div>
+        <div class="university">KR Mangalam University, Sohna, Gurgaon | Batch 2025–2029</div>
+    </header>
+
+    <div class="container">
+
+        <!-- ===== ABOUT ME ===== -->
+        <div class="section about">
+            <h2><span class="emoji">👋</span>About Me</h2>
+            <p>
+                I am a first-year B.Tech Computer Science student specialising in Artificial Intelligence and Machine Learning 
+                at KR Mangalam University. I am passionate about building practical skills in programming, automation, and 
+                data-driven technologies. Currently sharpening my foundations in Python, Linux, Git, and web technologies 
+                as I work towards becoming a skilled AI/ML engineer.
+            </p>
+        </div>
+
+        <!-- ===== SKILLS ===== -->
+        <div class="section">
+            <h2><span class="emoji">🛠️</span>Skills</h2>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git &amp; GitHub</li>
+                <li>Linux</li>
+                <li>Bash Scripting</li>
+                <li>REST APIs</li>
+                <li>Markdown</li>
+                <li>VS Code</li>
+                <li>curl &amp; jq</li>
+            </ul>
+        </div>
+
+        <!-- ===== PROJECTS ===== -->
+        <div class="section">
+            <h2><span class="emoji">🚀</span>Projects</h2>
+            <div class="project-card">
+                <h3>DeveloperPortfolio</h3>
+                <p>
+                    A comprehensive beginner developer ecosystem portfolio demonstrating skills in Linux system administration,
+                    Bash shell scripting, Git version control, REST API interaction, and professional documentation.
+                    Built as a capstone project for Semester 1 of B.Tech CSE (AI/ML).
+                </p>
+                <div class="tags">
+                    <span>Linux</span>
+                    <span>Bash</span>
+                    <span>Git</span>
+                    <span>Python</span>
+                    <span>HTML/CSS</span>
+                    <span>REST API</span>
+                    <span>Markdown</span>
+                </div>
+                <a class="btn" href="https://github.com/mayank0703/DeveloperPortfolio" target="_blank">
+                    ⭐ View on GitHub
+                </a>
+            </div>
+        </div>
+
+        <!-- ===== CONTACT ===== -->
+        <div class="section">
+            <h2><span class="emoji">📬</span>Contact</h2>
+            <div class="contact-links">
+                <a href="https://github.com/mayank0703" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/mayank-bodwal-b0767a400" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    LinkedIn
+                </a>
+                <a href="mailto:mayankbodwal03@gmail.com">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                    Email
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        &copy; 2026 Mayank Bodwal | KR Mangalam University | Built with ❤️ for the DeveloperPortfolio Capstone
+    </footer>
+
+</body>
+</html>
