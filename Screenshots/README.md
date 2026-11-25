@@ -2,17 +2,12 @@
 
 This folder contains supporting screenshots for all sections of the DeveloperPortfolio.
 
-## Required Screenshots
+## Captured Screenshots
 
 | File | Description | Status |
 |------|-------------|--------|
-| `backup_demo.png` | Screenshot showing backup.sh success message | Pending |
-| `github_profile.png` | Screenshot of GitHub profile page | Pending |
-| `linkedin_profile.png` | Screenshot of LinkedIn profile page | Pending |
-
-## How to Capture
-- **Windows:** Press `Win + Shift + S` to use Snipping Tool, then paste and save as PNG.
-- **Linux:** Use `gnome-screenshot` or `scrot` command.
-- **macOS:** Press `Cmd + Shift + 4` to select an area.
-
-Save all screenshots directly into this `Screenshots/` folder.
+| `backup_demo.png` | Screenshot showing backup.sh execution and success message | ✅ Completed |
+| `github_profile.png` | Screenshot of GitHub profile page with pinned repository | ✅ Completed |
+| `linkedin_profile.png` | Screenshot of LinkedIn profile page with DeveloperPortfolio project | ✅ Completed |
+| `git_commit_commands.png` | Terminal screenshot showing individual Conventional Commits executed | ✅ Completed |
+| `git_log.png` | Terminal screenshot showing `git log --oneline` verification | ✅ Completed |
