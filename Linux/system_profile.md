@@ -3,7 +3,7 @@
 > **Date:** 25 November 2026  
 > **Course:** B.Tech CSE (AI/ML) — Semester 1  
 > **University:** KR Mangalam University, Sohna, Gurgaon  
-> **OS Environment:** Ubuntu 22.04 LTS (via WSL2 / Linux Terminal)
+> **OS Environment:** Ubuntu 26.04.1 LTS (via WSL2 / Linux Terminal)
 
 ---
 
@@ -19,7 +19,7 @@ The hardware specifications were collected using terminal commands (`lscpu`, `fr
 | **Available RAM** | 7.1 GiB Available inside active Linux session |
 | **Primary Storage Size** | 1 TB (954 GB accessible capacity) |
 | **Primary Storage Type** | NVMe Solid State Drive (SSD) — Micron MTFDKCD1T0QGN |
-| **Operating System** | Ubuntu 22.04.3 LTS (x86_64) |
+| **Operating System** | Ubuntu 26.04.1 LTS (x86_64) |
 | **Kernel Version** | 6.18.58.1-microsoft-standard-WSL2 |
 
 ### Terminal Commands Used to Extract Specifications
